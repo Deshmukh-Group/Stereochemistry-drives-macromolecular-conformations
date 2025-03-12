@@ -1,0 +1,46 @@
+[ bondtypes ]
+;      i        j  func           b0           kb
+
+
+[ angletypes ]
+;      i        j        k  func       theta0       ktheta          ub0          kub
+   CG2O5   CG2DC1   CG2R61     5   121.570000   403.002880   0.00000000         0.00
+  CG2DC1    CG2O5   CG2R61     5   108.420000   335.389440   0.00000000         0.00
+  CG2DC1   CG2R61   CG2R67     5   120.000000   301.248000   0.00000000         0.00
+  CG2DC1   CG2R61   OG3R60     5   113.900000   167.360000   0.00000000         0.00
+   CG2O5   CG2R61   CG2R67     5   120.000000   376.560000   0.00000000         0.00
+  CG2R67   CG2R61   OG3R60     5   120.000000   334.720000   0.00000000         0.00
+
+
+[ dihedraltypes ]
+;      i        j        k        l  func         phi0         kphi  mult
+  CG2R61   CG2DC1    CG2O5   CG2R61     9   180.000000     4.538385     2
+  CG2R61   CG2DC1    CG2O5    OG2D3     9   180.000000     5.857600     2
+    HGA4   CG2DC1    CG2O5   CG2R61     9   180.000000    12.962450     2
+   CG2O5   CG2DC1   CG2R61   CG2R67     9   180.000000     3.138000     2
+   CG2O5   CG2DC1   CG2R61   CG2R67     9     0.000000     0.794960     4
+   CG2O5   CG2DC1   CG2R61   OG3R60     9   180.000000     3.138000     2
+   CG2O5   CG2DC1   CG2R61   OG3R60     9     0.000000     0.794960     4
+    HGA4   CG2DC1   CG2R61   CG2R67     9   180.000000     2.510400     2
+    HGA4   CG2DC1   CG2R61   OG3R60     9   180.000000     2.510400     2
+  CG2DC1    CG2O5   CG2R61   CG2R61     9   180.000000     3.792796     2
+  CG2DC1    CG2O5   CG2R61   CG2R67     9   180.000000     3.792796     2
+   OG2D3    CG2O5   CG2R61   CG2R67     9   180.000000     6.631640     2
+  NG2R60   CG2R61   CG2R61   OG3R60     9   180.000000     4.184000     2
+  CG2DC1   CG2R61   CG2R67   CG2R67     9   180.000000    12.970400     2
+  CG2DC1   CG2R61   CG2R67   NG2R60     9   180.000000     5.020800     2
+   CG2O5   CG2R61   CG2R67   CG2R61     9   180.000000    12.970400     2
+   CG2O5   CG2R61   CG2R67   CG2R67     9   180.000000    12.970400     2
+  OG3R60   CG2R61   CG2R67   CG2R67     9   180.000000     4.184000     2
+  OG3R60   CG2R61   CG2R67   NG2R60     9   180.000000     4.184000     2
+  CG2DC1   CG2R61   OG3R60   CG2R61     9     0.000000     3.179840     2
+  CG2R67   CG2R61   OG3R60   CG2R61     9     0.000000     3.179840     2
+   CG331    CG321    NG301    CG321     9   180.000000     5.941280     1
+   CG331    CG321    NG301    CG321     9     0.000000     3.430880     2
+   CG331    CG321    NG301    CG321     9     0.000000     4.267680     3
+
+
+[ dihedraltypes ]
+; 'improper' dihedrals 
+;      i        j        k        l  func         phi0         kphi
+   CG2O5   CG2DC1   CG2R61    OG2D3     2     0.000000   574.623029
